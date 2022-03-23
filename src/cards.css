@@ -1,0 +1,138 @@
+#container-card{
+display: grid;
+grid-template-columns: repeat(12, 150px);
+grid-template-rows: repeat(14, 113px);
+background-image: url("../public/assets/img/fondo1.jpg");
+background-size: cover;
+}
+#box-grid-card{
+    display: grid;
+    grid-template-columns: repeat(11, 100px);
+grid-template-rows: repeat(4, 80px)
+}
+.elementor-heading-title-card{
+color: #333;
+font-size: 31px;
+grid-column-start: 6;
+grid-row-start: 2;
+white-space:pre;
+word-spacing: normal;
+}
+.card-mb-4{
+    background-color: white;
+    width: 1100px;
+    height:     320px;
+    grid-column-start: 4;
+    grid-row-start: 3;
+    image-rendering:auto;
+}
+.img-fluid{
+    width:310px ;
+    height: 320px;
+}
+.card-title-card{
+    grid-column-start: 5;
+grid-row-start: 2;
+color: #333;
+font-size: 22px;
+font-family: "Montserrat";
+font-weight: 700 ;
+letter-spacing: -.3px ;
+width: 380px;
+}
+.card-text-card{
+    grid-column-start: 5;
+    grid-row-start: 3;
+    width: 310px;
+    font-family: "Montserrat";
+    color: #878787;
+    font-size: 18px;
+    letter-spacing: .5px;
+    line-height: 25px;
+}
+
+/* primera tarjeta */
+#box-grid-card-2{
+    display: grid;
+    grid-template-columns: repeat(11, 100px);
+grid-template-rows: repeat(4, 80px)
+}
+
+
+.card-mb-4-2{
+    background-color: white;
+    width: 1100px;
+    height:     320px;
+    grid-column-start: 4;
+    grid-row-start: 6;
+    image-rendering:auto;
+    margin-top: 25px;
+}
+.img-fluid-2{
+    width:310px ;
+    height: 320px;
+}
+.card-title-card-2{
+    grid-column-start: 5;
+grid-row-start: 2;
+color: #333;
+font-size: 22px;
+font-family: "Montserrat";
+font-weight: 700 ;
+letter-spacing: -.3px ;
+width: 380px;
+}
+.card-text-card-2{
+    grid-column-start: 5;
+    grid-row-start: 3;
+    width: 310px;
+    font-family: "Montserrat";
+    color: #878787;
+    font-size: 18px;
+    letter-spacing: .5px;
+    line-height: 25px;
+}
+/* segunda tarjeta */
+
+#box-grid-card-3{
+    display: grid;
+    grid-template-columns: repeat(11, 100px);
+grid-template-rows: repeat(4, 80px)
+}
+
+
+.card-mb-4-3{
+    background-color: white;
+    width: 1100px;
+    height:     420px;
+    grid-column-start: 4;
+    grid-row-start: 9;
+    image-rendering:auto;
+    margin-top: 50px;
+}
+.img-fluid-3{
+    width:310px ;
+    height: 420px;
+}
+.card-title-card-3{
+    grid-column-start: 5;
+grid-row-start: 2;
+color: #333;
+font-size: 22px;
+font-family: "Montserrat";
+font-weight: 700 ;
+letter-spacing: -.3px ;
+width: 380px;
+}
+.card-text-card-3{
+    grid-column-start: 5;
+    grid-row-start: 3;
+    width: 410px;
+    font-family: "Montserrat";
+    color: #878787;
+    font-size: 18px;
+    letter-spacing: .5px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-top: 25px;
+}

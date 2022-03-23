@@ -1,0 +1,575 @@
+#Container-Plan-Choise{
+    display: grid;
+    grid-template-columns: repeat(12, 150px);
+grid-template-rows: repeat(19, 100px);
+background-color: #fff;
+}
+#card-plan-choise-select {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-template-rows: repeat(10, 70px);
+}
+/* <primera tarjeta> */
+
+.elementor-heading-title-Plan-Choise {
+    grid-column-start:6 ;
+    grid-row-start:2;
+    color: #333;
+    font-size: 49px;
+    width: 400px;
+}
+.elementor-heading-p-Plan-Choise {
+    background-color: #fff;
+    grid-column-start:5 ;
+    grid-row-start:3;
+    font-size: 24px;
+    width: 100vh;
+    font-family: "Montserrat";
+        color: #333;
+        letter-spacing: .5px;
+    }
+    .elementor-heading-title-p-plan-choise{
+        grid-column-start:2 ;
+    grid-row-start:5;
+    color: #fff;
+    font-family: "Raleway",Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 300px;
+    text-align: left;
+    }
+
+    .elementor-heading-title-p-plan-choise-b{
+        grid-column-start:2 ;
+    grid-row-start:6; 
+    color: #fff;
+    font-family: "Raleway",Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 200px;
+    text-align: left;
+    }
+    .elementor-heading-title-p-plan-choise-c{
+        grid-column-start:2 ;
+        grid-row-start:7; 
+        color: #fff;
+        font-family: "Raleway",Sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        width: 300px;
+        text-align: left;
+    }
+    .elementor-heading-title-p-plan-choise-d{
+        grid-column-start:2 ;
+        grid-row-start:8; 
+        color: #fff;
+        font-family: "Raleway",Sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        width: 200px;
+        text-align: left;
+    }
+    .hr-1-plan{
+        grid-column-start:2;
+        grid-row-start:4; 
+        width: 320px;
+        height: 0;
+        margin-top: 40px;
+    }
+    .hr-2-plan{
+        grid-column-start:2;
+        grid-row-start:5; 
+        width: 320px;
+        height: 0;
+        margin-top: 40px;
+    }
+    .hr-3-plan{
+        grid-column-start:2;
+        grid-row-start:6; 
+        width: 320px;
+        height: 0;
+        margin-top: 40px;
+    }
+    .hr-4-plan{
+        grid-column-start:2;
+        grid-row-start:7; 
+        width: 320px;
+        height: 0;
+        margin-top: 55px;
+    }
+    .button-card-1-choise-plan{
+        grid-column-start:3;
+        grid-row-start:9;
+        width: 250px;
+        height: 60px;
+        border-radius:40px ;
+        background-color:#02ddf7;
+        color:#fff;
+        font-weight: bold;
+        font-size: 18px;
+        cursor: pointer;
+        border:none;
+    } 
+    .button-card-1-choise-plan:hover{
+        background-color:#fff ;
+        color:#02ddf7;
+    }
+
+    
+    .card-plan-choise-select {
+
+        background-color: #6284ba;
+        width: 400px;
+        height: 700px;
+        grid-column-start:3 ;
+        grid-row-start:4;
+    }
+    .h3-tittle-card {
+        grid-column-start:2 ;
+    grid-row-start:1;
+    width: 350px;
+    color: #fdffff;
+    font-size:xx-large;
+    margin-top: 50px;
+    font-weight: bold;
+    text-align: center;
+    }
+    .h2-tittle-card {
+        grid-column-start:3 ;
+    grid-row-start:2;
+    font-size: 90px;
+    width: 250px;
+    color: #fdffff;
+    text-align: center;
+    font-family: "Montserrat" !important;
+    font-weight: 700 !important;
+    letter-spacing: -.3px !important;
+    margin-top: 20px;
+}
+    .p-tittle-card {
+        grid-column-start:3;
+    grid-row-start:3;
+    width: 250px;
+    color: #fff;
+text-align: center;
+font-size: 16px;
+margin-top: 50px;
+}
+/* <primera tarjeta> */
+
+
+    /* segunda tarjeta */
+    #card-plan-choise-select-2 {
+        display: grid;
+        grid-template-columns: repeat(10, 40px);
+        grid-template-rows: repeat(10, 70px);
+    }
+    .card-plan-choise-select-2 {
+        background-color: #6284ba;
+        width: 400px;
+        height: 700px;
+        grid-column-start:6 ;
+        grid-row-start:4;
+    }
+    .h3-tittle-card-2 {
+        grid-column-start:2 ;
+    grid-row-start:1;
+    width: 350px;
+    color: #fdffff;
+    font-size:xx-large;
+    margin-top: 50px;
+    font-weight: bold;
+    text-align: center;
+    }
+    .h2-tittle-card-2 {
+    grid-column-start:3 ;
+    grid-row-start:2;
+    font-size: 90px;
+    width: 250px;
+    color: #fdffff;
+    text-align: center;
+    font-family: "Montserrat" !important;
+    font-weight: 700 !important;
+    letter-spacing: -.3px !important;
+    margin-top: 20px;
+}
+.p-tittle-card-2 {
+    grid-column-start:3;
+grid-row-start:3;
+width: 250px;
+color: #fff;
+text-align: center;
+font-size: 16px;
+margin-top: 50px;
+}
+.elementor-heading-title-p-plan-choise-2{
+    grid-column-start:2 ;
+grid-row-start:5;
+color: #fff;
+font-family: "Raleway",Sans-serif;
+font-size: 20px;
+font-weight: 500;
+width: 300px;
+text-align: left;
+}
+
+.elementor-heading-title-p-plan-choise-b-2{
+    grid-column-start:2 ;
+grid-row-start:6; 
+color: #fff;
+font-family: "Raleway",Sans-serif;
+font-size: 20px;
+font-weight: 500;
+width: 200px;
+text-align: left;
+}
+.elementor-heading-title-p-plan-choise-c-2{
+    grid-column-start:2 ;
+    grid-row-start:7; 
+    color: #fff;
+    font-family: "Raleway",Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 300px;
+    text-align: left;
+}
+.elementor-heading-title-p-plan-choise-d-2{
+    grid-column-start:2 ;
+    grid-row-start:8; 
+    color: #fff;
+    font-family: "Raleway",Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 200px;
+    text-align: left;
+}
+.hr-1-plan-2{
+    grid-column-start:2;
+    grid-row-start:4; 
+    width: 320px;
+    height: 0;
+    margin-top: 40px;
+}
+.hr-2-plan-2{
+    grid-column-start:2;
+    grid-row-start:5; 
+    width: 320px;
+    height: 0;
+    margin-top: 40px;
+}
+.hr-3-plan-2{
+    grid-column-start:2;
+    grid-row-start:6; 
+    width: 320px;
+    height: 0;
+    margin-top: 40px;
+}
+.hr-4-plan-2{
+    grid-column-start:2;
+    grid-row-start:7; 
+    width: 320px;
+    height: 0;
+    margin-top: 55px;
+}
+.button-card-1-choise-plan-2{
+    grid-column-start:3;
+    grid-row-start:9;
+    width: 250px;
+    height: 60px;
+    border-radius:40px ;
+    background-color:#02ddf7;
+    color:#fff;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    border:none;
+} 
+.button-card-1-choise-plan-2:hover{
+    background-color:#fff ;
+    color:#02ddf7;
+}
+
+ /* segunda tarjeta */
+
+
+
+    /* tercera tarjeta */
+    #card-plan-choise-select-3 {
+        display: grid;
+        grid-template-columns: repeat(10, 40px);
+        grid-template-rows: repeat(10, 70px);
+    }
+    .card-plan-choise-select-3 {
+        background-color: #6284ba;
+        width: 400px;
+        height: 700px;
+        grid-column-start:9 ;
+        grid-row-start:4;
+    }
+    .h3-tittle-card-3 {
+        grid-column-start:2 ;
+    grid-row-start:1;
+    width: 350px;
+    color: #fdffff;
+    font-size:xx-large;
+    margin-top: 50px;
+    font-weight: bold;
+    text-align: center;
+    }
+    .h2-tittle-card-3 {
+    grid-column-start:3 ;
+    grid-row-start:2;
+    font-size: 90px;
+    width: 250px;
+    color: #fdffff;
+    text-align: center;
+    font-family: "Montserrat" !important;
+    font-weight: 700 !important;
+    letter-spacing: -.3px !important;
+    margin-top: 20px;
+}
+.p-tittle-card-3 {
+    grid-column-start:3;
+grid-row-start:3;
+width: 250px;
+color: #fff;
+text-align: center;
+font-size: 16px;
+margin-top: 50px;
+}
+ .elementor-heading-title-p-plan-choise-3{
+    grid-column-start:2 ;
+grid-row-start:5;
+color: #fff;
+font-family: "Raleway",Sans-serif;
+font-size: 20px;
+font-weight: 500;
+width: 300px;
+text-align: left;
+}
+
+.elementor-heading-title-p-plan-choise-b-3{
+    grid-column-start:2 ;
+grid-row-start:6; 
+color: #fff;
+font-family: "Raleway",Sans-serif;
+font-size: 20px;
+font-weight: 500;
+width: 300px;
+text-align: left;
+}
+.elementor-heading-title-p-plan-choise-c-3{
+    grid-column-start:2 ;
+    grid-row-start:7; 
+    color: #fff;
+    font-family: "Raleway",Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 300px;
+    text-align: left;
+}
+/* .elementor-heading-title-p-plan-choise-d-3{
+    grid-column-start:2 ;
+    grid-row-start:8; 
+    color: #fff;
+    font-family: "Raleway",Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 200px;
+    text-align: left;
+} */
+.hr-1-plan-3{
+    grid-column-start:2;
+    grid-row-start:4; 
+    width: 320px;
+    height: 0;
+    margin-top: 40px;
+}
+.hr-2-plan-3{
+    grid-column-start:2;
+    grid-row-start:5; 
+    width: 320px;
+    height: 0;
+    margin-top: 40px;
+}
+.hr-3-plan-3{
+    grid-column-start:2;
+    grid-row-start:6; 
+    width: 320px;
+    height: 0;
+    margin-top: 40px;
+}
+/* .hr-4-plan-3{
+    grid-column-start:2;
+    grid-row-start:7; 
+    width: 320px;
+    height: 0;
+    margin-top: 55px;
+} */
+.button-card-1-choise-plan-3{
+    grid-column-start:3;
+    grid-row-start:9;
+    width: 250px;
+    height: 60px;
+    border-radius:40px ;
+    background-color:#02ddf7;
+    color:#fff;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    border:none;
+} 
+.button-card-1-choise-plan-3:hover{
+    background-color:#fff ;
+    color:#02ddf7;
+}
+/* tercera tarjeta */
+
+.h3-tittle-more-options{
+    grid-column-start:3;
+    grid-row-start:13;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 50px;
+    width: 280px;
+    font-weight: bold;
+    color:#333;
+
+}
+.img-plan-deportivo-1{
+  width:233px;
+  height:315px;
+  grid-column-start:6;
+  grid-row-start:13;
+}
+ .img-plan-deportivo-2{
+    width:233px;
+    height:315px;
+    grid-column-start:7;
+    grid-row-start:13;
+    margin-left: 100px;
+  }
+.img-plan-deportivo-3{
+    width:233px;
+    height:315px;
+    grid-column-start:9;
+    grid-row-start:13;
+    margin-left: 50px;
+  }
+  .span-asesoramientos-1 {
+    grid-column-start:6;
+    grid-row-start:16;
+    margin-top: 30px;
+    color: #333;
+    font-size: large;
+  }
+  .span-asesoramientos-2 {
+    grid-column-start:7;
+    grid-row-start:16;
+    margin-top: 30px;
+    margin-left: 110px;
+    color: #333;
+    font-size: large;
+  }
+  .span-asesoramientos-3 {
+    grid-column-start:9;
+    grid-row-start:16;
+    margin-top: 30px;
+    margin-left: 60px;
+    color: #333;
+    font-size: large;
+  }
+
+  .h2-asesoramientos-1{
+    grid-column-start:6;
+    grid-row-start:16;
+    font-family: "Montserrat" !important;
+    font-weight: 700 !important;
+    letter-spacing: -.3px !important;
+    color: #243773;
+    font-size: large;
+    margin-top: 60px;
+    line-height:25px;
+
+  }
+  .h2-asesoramientos-2{
+    grid-column-start:7;
+    grid-row-start:16;
+    font-family: "Montserrat" !important;
+    font-weight: 700 !important;
+    letter-spacing: -.3px !important;
+    color: #243773;
+    font-size: large;
+    margin-top: 60px;
+    margin-left: 110px;
+    width: 200px;
+    line-height:25px;
+
+  }
+  .h2-asesoramientos-3{
+    grid-column-start:9;
+    grid-row-start:16;
+    font-family: "Montserrat" !important;
+    font-weight: 700 !important;
+    letter-spacing: -.3px !important;
+    color: #243773;
+    font-size: large;
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 200px;
+    line-height:25px;
+  }
+  .p-asesoramientos-1 {
+    grid-column-start:6;
+    grid-row-start:18;
+    font-family: "Montserrat";
+    font-size: larger;
+    font-weight: bold;
+    width: 200px;
+
+  }
+  .p-asesoramientos-2 {
+    grid-column-start:7;
+    grid-row-start:18;
+    font-family: "Montserrat";
+    font-size: larger;
+    font-weight: bold;
+    width: 200px;
+    margin-left: 110px;
+
+  }
+  .p-asesoramientos-3 {
+    grid-column-start:9;
+    grid-row-start:18;
+    font-family: "Montserrat";
+    font-size: larger;
+    font-weight: bold;
+    width: 200px;
+    margin-left: 50px;
+
+  }
+  .span-precios-1 {
+    grid-column-start:6;
+    grid-row-start:17; 
+    margin-top: 70px;
+    margin-left: 5px;
+    font-size: 26px;
+    color:#bccdeb;
+  }
+  .span-precios-2 {
+    grid-column-start:7;
+    grid-row-start:17; 
+    margin-top: 70px;
+    margin-left: 110px;
+    font-size: 26px;
+    color:#bccdeb;
+  }
+  .span-precios-3 {
+    grid-column-start:9;
+    grid-row-start:17; 
+    margin-top: 70px;
+     margin-left: 50px;
+    font-size: 26px;
+    color:#bccdeb;
+  }
+

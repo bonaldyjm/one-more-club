@@ -1,0 +1,37 @@
+#container-img-moment {
+    background-image: url("../public/assets/img/chica1.png")!important;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(10, 100px);
+    /* height:950px;
+    width: 2500px; */
+}
+.elementor-heading-title-moment{
+    font-family: "montserrat";
+    word-spacing: 100vw;
+    font-weight: 700;
+    letter-spacing: -.3px;
+    color:#333;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.cuadro-titulo-moment{
+    width: 600px;
+    height: 600px;
+    font-size: 15px;
+    letter-spacing: .5px;
+    background-color: #fff;
+    grid-column-start:3 ;
+    grid-row-start: 2;
+    margin-left: 70px;
+}
+.p-1-moment{
+    font-family: "montserrat";
+    font-size: 25px;
+    letter-spacing: .5px;
+    color: #6b6b6b;
+    margin-top: 0;
+    margin-bottom: 0.9rem;
+    width: 80%;
+}

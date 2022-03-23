@@ -1,0 +1,101 @@
+#section-id {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 100px);
+background-color: #6284ba;
+}
+
+.section-img-1{
+   grid-column-start:4 ; ;
+    grid-row-start:2 ;
+    width: 180px;
+    height: 180px;
+    margin-right: 100px;
+}
+.section-img-2{
+    grid-column-start:6 ; ;
+    grid-row-start:2 ;
+    width: 180px;
+    height: 180px;
+    margin-left: 75px;
+}
+.section-img-3{
+    grid-column-start:9 ; ;
+    grid-row-start:2 ;
+    width: 180px;
+    height: 180px;
+    margin-left: 85px;
+}
+.elementor-image1-title{
+    grid-column-start:4; ;
+    grid-row-start:4 ;
+    color: #ffd377;
+    font-family: "Raleway",Sans-serif;
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top:50px;
+    margin-right: 100px;
+}
+.elementor-image1-description{
+    grid-column-start:3;
+    grid-column-end:5;
+    grid-row-start:5 ;
+    font-family: "Montserrat" !important;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    margin-top: 22px;
+    text-align: center;
+    margin-left: 40px;
+}
+.elementor-image2-title {
+    grid-column-start:6;
+    grid-column-end: 7 ;
+    grid-row-start:4 ;
+    color: #ffd377;
+    font-family: "Raleway",Sans-serif;
+    font-size: 21px;
+    letter-spacing: 1px;
+    margin-top:50px;
+    text-align: center;
+}
+
+.elementor-image2-description{
+    grid-column-start:6; ;
+    grid-row-start:5 ;
+    font-family: "Montserrat" !important;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+    .elementor-image3-title {
+        grid-column-start:9;
+        grid-column-end: 11 ;
+        grid-row-start:4 ;
+        color: #ffd377;
+    font-family: "Raleway",Sans-serif;
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top:50px ;
+    }
+
+    .elementor-image3-description{
+        grid-column-start:9;
+        grid-column-end: 11 ;
+        grid-row-start:5 ;
+        font-family: "Montserrat" !important;
+        color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    margin-top: 22px;
+    margin-left: 10px!important;
+    text-align: center;
+    }

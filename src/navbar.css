@@ -1,0 +1,66 @@
+#navbarNav {
+    display: grid;
+    grid-template-columns: repeat(10, 150px);
+    grid-template-rows: repeat(3, 113px);
+    list-style:none;
+    background-color: #fff1e9;
+    font-size: 22px;
+    font-weight: 500;
+    font-family:"poppins", Sans-serif ;
+}
+a:-webkit-any-link {
+    color: #6284ba;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: rgba(2,1,1,0);
+    text-transform: uppercase;
+    line-height: 1em;
+}
+a:-webkit-any-link:hover {
+    color: #ffaf40;
+}
+
+.nav-item1 {
+grid-column-start: 5;
+grid-row-start:2 ;
+margin-top: 20px;
+margin-right: 50px;
+color: #ffaf40!important;
+background-color: rgba(2,1,1,0);
+
+}
+.nav-item2 {
+    grid-column-start:7 ;
+    grid-row-start:2 ;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.nav-item3 {
+    grid-column-start:8 ;
+    grid-row-start:2 ;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.nav-item4 {
+    grid-column-start:9 ;
+    grid-row-start:2 ;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.nav-item1:hover:active .nav-item2:hover .nav-item3:hover .nav-item4:hover {
+    color:  orange;
+}
+
+.img {
+    width: 280px;
+    height: 280px;
+    grid-column-start: 3;
+    grid-row-start:1 ;
+    margin-top: 40px;
+    border-right: 50px;
+}
+.money {
+    grid-column-start:9 ;
+    grid-row-start:3 ;
+    margin-left: 100px;
+}
