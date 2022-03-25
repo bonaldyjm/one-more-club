@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bonaldyjm/one-more-club/static/css/main.9ffdae04.css",
+    "main.js": "/bonaldyjm/one-more-club/static/js/main.ddd33f31.js",
+    "static/media/chica1.png": "/bonaldyjm/one-more-club/static/media/chica1.0065a7fb81a3f7446d27.png",
+    "static/media/fondo1.jpg": "/bonaldyjm/one-more-club/static/media/fondo1.c5fbc46b6dd13e5967ba.jpg",
+    "index.html": "/bonaldyjm/one-more-club/index.html",
+    "main.9ffdae04.css.map": "/bonaldyjm/one-more-club/static/css/main.9ffdae04.css.map",
+    "main.ddd33f31.js.map": "/bonaldyjm/one-more-club/static/js/main.ddd33f31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ffdae04.css",
+    "static/js/main.ddd33f31.js"
+  ]
+}
