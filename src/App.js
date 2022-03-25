@@ -9,29 +9,28 @@ import Clients from './clients';
 import PlanChoise from './planchoise';
 import Carousel from './carousel';
 import Flip from './flip';
+import Suscri from './suscri';
+import Condition from './condition';
 
 function App() {
   return (
     <React.Fragment>
       <Navbar>
-        holis mi amor
       </Navbar>
       <Form>
-        holis mi amor
       </Form>
-      <Moment saludo = "holis mi amor">
-        natasha mi amor
+      <Moment>
       </Moment>
-      <Section saludo = "holis mi amor">
-        natasha mi amor
+      <Section>
       </Section>
       <Cards>
-    holis mi amor
       </Cards>
       <Clients/>
       <PlanChoise/>
       <Carousel/>
       <Flip/>
+      <Suscri/>
+      <Condition/>
     </React.Fragment>
   );
   }

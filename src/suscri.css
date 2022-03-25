@@ -1,0 +1,135 @@
+#container-suscri{
+    display: grid;
+    grid-template-columns: repeat(12, 150px);
+    grid-template-rows: repeat(7, 75px);
+    background-color: #6284ba;
+}
+
+.h4-elementor-suscri {
+color: #fff1e9;
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 30px;
+width: 600px;
+grid-column-start: 4;
+margin-left: 40px;
+margin-top: 10px;
+}
+.h6-elementor-suscri {
+    color: #fff1e9;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    width: 553px;
+    grid-column-start: 4;
+    margin-left: 40px;
+    margin-top: 17px;
+}
+
+.h5-elementor-suscri {
+    grid-column-start: 8;
+    grid-row-start: 1;
+    color: #243773;;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 25px;
+    width: 400px;
+    margin-top: 15px;
+}
+input{
+    background-color: rgba(255,255,255,.3);
+    color: black;
+    border-color: #243773;
+}
+.casilla-email-suscri {
+    grid-column-start:8 ;
+    grid-row-start: 2;
+    margin-top: 15px;
+    width: 900px;
+    height: 45px;
+}
+.etiqueta-email-suscri {
+    grid-column-start:8 ;
+    grid-row-start:1 ;
+    margin-top: 60px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-weight: 300 !important;
+    letter-spacing: -.3px !important;
+    color: #333;
+    font-size: 1.15rem;
+}
+ .casilla-nombre-suscri {
+   grid-column-start:8 ;
+    grid-row-start: 3;
+    margin-top: 40px;
+    width: 900px;
+    height: 45px;
+
+}
+.etiqueta-nombre-suscri {
+    grid-column-start:8 ;
+    grid-row-start:2 ;
+    margin-top: 80px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-weight: 300 !important;
+    letter-spacing: -.3px !important;
+    color: #333;
+    font-size: 1.15rem;
+}
+ .casilla-apellido-suscri{
+    grid-column-start:8 ;
+    grid-row-start: 4;
+    margin-top: 60px;
+    width: 900px;
+    height: 45px;
+}
+
+.etiqueta-apellido-suscri {
+    grid-column-start:8 ;
+    grid-row-start:3 ;
+    margin-top: 100px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px ;
+    color: #333;
+    font-size: 1.15rem;
+}
+ .form-check-input-suscri {
+grid-column-start:8 ;
+grid-row-start:5;
+margin-top: 45px;
+}
+.form-check-label-suscri {
+grid-column-start:8 ;
+grid-row-start:5;
+width: 400px;
+margin-top: 40px;
+margin-left: 20px;
+font-family:  -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #333;
+}
+.politica-suscri{
+   color: red;
+   cursor: pointer;
+}
+.btn-btn-primary-suscri{
+grid-column-start: 8;
+grid-row-start:6;
+margin-top: 40px;
+width: 300px;
+height: 50px;
+background-color: #243773;
+text-transform: uppercase;
+font-weight: 700;
+letter-spacing: 1.5px;
+border-color:#c36 ;
+color: #c36;
+cursor: pointer;
+}
+.btn-btn-primary-suscri:hover {
+   background-color: #c36;
+   color:whitesmoke;
+}

@@ -1,0 +1,40 @@
+#container-condition {
+    display: grid;
+    grid-template-columns: repeat(12, 150px);
+    grid-template-rows: repeat(5, 100px);
+    background-color: #f1faff;;
+}
+.logo-condition{
+    width: 250px;
+    height: 250px;
+    grid-column-start: 4;
+    grid-row-start:2 ;
+    margin-left: 70px;
+}
+.p-condition{
+    grid-column-start: 6;
+    grid-row-start:3 ;
+    margin-left: 40px;
+    width: 300px;
+    font-size: 20px;
+    color:#a4b0c1;
+    font-weight: 100;
+}
+.span-condition{
+    grid-column-start:9 ;
+    grid-row-start:3 ;
+    color: #a4b0c1;
+    font-weight: 100;
+    font-size: 20px;
+    width: 300px;
+}
+.span-condition-2{
+    grid-column-start:9 ;
+    grid-row-start:3 ;
+    color: #a4b0c1;
+    font-weight: 100;
+    font-size: 20px;
+    width: 300px;
+    margin-top: 28px;
+    margin-left: 10px;
+}
